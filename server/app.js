@@ -7,7 +7,7 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 var cors = require('cors')
 require('dotenv').config()
-mongoose.connect('mongodb://localhost/hacktioverflow', (err) => {
+mongoose.connect('mongodb://benderakunin:d4gd1gdug@ds247698.mlab.com:47698/hacktivoverflow', (err) => {
   if (!err) {
     console.log('database conected');
   } else {
